@@ -51,7 +51,6 @@ footer {
     background-color: rgb(235, 235, 235);
     color: rgb(45, 85, 245);
     border: 0.5em;
-
 }
 
 .main-nav > li > a:active {
@@ -61,6 +60,29 @@ footer {
 
 .main-nav > .right-nav {
     margin-left: auto;
+}
+
+#icons {
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width: 600px) {
+    #icons {
+        display: block;
+    }
+    #icons::before {
+        content: "\2630";
+    }
+.main-nav {
+    position: fixed;
+    left: -100%;
+    top: 5%;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    transition: 0.25s;
+}
 }
 
 /* HEADER/HERO HERO STYLES */
@@ -104,6 +126,14 @@ aside > form > ul {
 /* MAIN STYLES */
 main {
     grid-column: span 1;
+}
+
+.save {
+    text-align: center;
+}
+
+.sale {
+    text-align: center;
 }
 
 .flex-container {

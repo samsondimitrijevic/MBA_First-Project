@@ -8,19 +8,22 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
     <title>First Project</title>
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/o-icon">
 </head>
 <body>
     <h1 class="mobile-company">odelices</h1>
     <div class="container">
         <!-- nav bar -->
-        <nav>
+        <nav id="nav" class="active">
             <ul class="main-nav">
-                <li><a href="https://currys.co.uk">Home</a></li>
-                <li><a href="https://currys.co.uk">Stores</a></li>
-                <li><a href="https://currys.co.uk">Our Team</a></li>
-                <li><a href="https://currys.co.uk">Contact</a></li>
+                <li><a href="https://currys.co.uk/" target="_blank">Home</a></li>
+                <li><a href="https://currys.co.uk/" target="_blank">Stores</a></li>
+                <li><a href="https://currys.co.uk/" target="_blank">Our Team</a></li>
+                <li><a href="https://currys.co.uk/" target="_blank">Contact</a></li>
                 <li class="right-nav"><a href="">Basket</a></li>
             </ul>
+            <!-- added div below -->
+            <div id="icons"></div>
         </nav>
         <!-- hero section -->
         <header>
@@ -81,12 +84,11 @@
         </aside>
         <!-- main -->
         <main>
-            <h3>Save up to 30% on 1000s products. Now on!</h3>
+            <h3 class="save">Save up to 30% on 1000s products. Now on!</h3>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio excepturi, a, eligendi facilis hic voluptatibus quam porro vitae itaque iusto vel illo tempora culpa fugiat. Qui dolor exercitationem debitis. Amet.
             </p>
-            <!-- flex container -->
-            <div class="flex-container">
+                <div class="flex-container">
                 <!-- card1 -->
                 <div class="location-card">
                     
@@ -222,14 +224,14 @@
         </main>
         <footer>   
             <ul>   
-            <li><a href="https://currys.co.uk">Site Map</a></li>
-            <li><a href="https://currys.co.uk">About Us</a></li>
-            <li><a href="https://currys.co.uk">Affiliates</a></li>
-            <li><a href="https://currys.co.uk">Careers</a></li>
-            <li><a href="https://currys.co.uk">Help</a></li>
-            <li><a href="https://currys.co.uk">Privacy</a></li>
-            <li><a href="https://currys.co.uk">Accessability</a></li>
-            <li><a href="https://currys.co.uk">Legal</a></li>
+            <li><a href="https://currys.co.uk/" target="_blank">Site Map</a></li>
+            <li><a href="https://currys.co.uk/" target="_blank">About Us</a></li>
+            <li><a href="https://currys.co.uk/" target="_blank">Affiliates</a></li>
+            <li><a href="https://currys.co.uk/" target="_blank">Careers</a></li>
+            <li><a href="https://currys.co.uk/" target="_blank">Help</a></li>
+            <li><a href="https://currys.co.uk/" target="_blank">Privacy</a></li>
+            <li><a href="https://currys.co.uk/" target="_blank">Accessability</a></li>
+            <li><a href="https://currys.co.uk/" target="_blank">Legal</a></li>
           </ul>
         </footer>
     </div>
